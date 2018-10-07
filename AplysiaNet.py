@@ -62,8 +62,8 @@ class AplysiaNet:
         writer = csv.writer(data_file, lineterminator= '\n')
 
         # Creates a .csv file for the synapse data
-        syn_file = open('SlugInput2.txt', 'w')
-        syn_writer = csv.writer(syn_file, delimiter='\t', lineterminator='\n')
+        syn_file = open('SlugInput2.csv', 'w')
+        syn_writer = csv.writer(syn_file, lineterminator='\n')
 
         syn_writer.writerow(['Time', 'PC', 'RC', 'CC', 'HC'])
 

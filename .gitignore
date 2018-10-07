@@ -1,6 +1,6 @@
 # Specific to this project
-AplysiaData.txt
-SlugInput2.txt
+AplysiaData.csv
+SlugInput2.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
